@@ -1,0 +1,20 @@
+DJANGO FOR APIS
+
+-CONFIGURACIÓN-
+· Instalar python y pipenv
+· Instalar django (pipenv install django)
+· Acceder al entorno virtual (pipenv shell, desde el directorio)
+· Crear un proyecto de django (django-admin startproject nombredelproyecto)
+· Migrar los datos a la base de datos (python manage.py migrate)
+· Arrancar el servidor para ver que funciona (python manage.py runserver)
+
+-CREAR APP-
+· Crear una app (python manage.py startapp nombredelaapp)
+· Añadir la app dentro de settings.py en la carpeta del proyecto
+· Sincronizar los cambios con la base de datos (migrate)
+
+-COMANDOS-
+· Mirar las acciones que se están ejecutando y los puertos donde se ejecutan
+    netstat -n -o -a i
+· Mirar el estado de cierto puerto 
+    telnet localhost 3000
